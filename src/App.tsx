@@ -15,19 +15,24 @@ export default function Page() {
       "No",
       "Are you sure?",
       "What if I asked really nicely?",
-      "Pretty please",
-      "With a chocolate rice cake on top",
-      "What about a matcha frostie",
-      "PLEASE POOKIE",
-      "But :*(",
-      "I am going to die",
-      "Yep im dead",
-      "ok ur talking to nathan's ghost",
-      "please babe",
-      ":((((",
-      "PRETTY PLEASE",
-      "Estoy muerto",
-      "No :(",
+      "I'll even go to any concert, or cosplay with you.",
+      "Pretty please?",
+      "With a chocolate rice cake on top?",
+      "With a cherry on top??",
+      "What about a matcha frostie?",
+      "Anime/Movie dates?",
+      "Please darling?",
+      "Prettyyyyy pleeeaaaseee??",
+      "I'll do anything for you in genshin, even the hard ones!!",
+      "I'll buy and go eat all the foods including your favourites with you!",
+      "You might Regret this",
+      "Last chance?",
+      "Have a heart :c",
+      "Give it another thought",
+      "Don't be so cold",
+      "Is this your final answer?",
+      "You're breaking my heart :(",
+
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -38,7 +43,7 @@ export default function Page() {
       {yesPressed ? (
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I love you pookie!! ;))</div>
+          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I love you so much Darling!! ;))</div>
         </>
       ) : (
         <>
